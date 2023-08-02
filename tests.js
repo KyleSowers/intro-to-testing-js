@@ -21,11 +21,13 @@ describe('sayHello', function () {
     }); // Start exercise 2
     it('It should return a string when called ', function () {
         expect(typeof sayHello()).toBe('string');
-    }); //Start exercise 3
+    }); // Start exercise 3
     it('should return the string "Hello, Jane!" when executed', function () {
         expect(sayHello("Jane")).toBe("Hello, Jane!");
-    }); //Start exercise 4
-
+    }); // Start exercise 4
+    it('should return the string "Hello, Alex!" when executed', function () {
+        expect(sayHello("Alex")).toBe("Hello, Alex!");
+    }); // Start exercise 5
 });
 
 
