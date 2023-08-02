@@ -18,5 +18,14 @@ describe('helloWorld', function() {
 describe('sayHello', function () {
     it('should be a defined function', function(){
         expect(typeof sayHello).toBe('function')
-    });
+    }); // Start exercise 2
+    it('It should return a string when called ', function () {
+        expect(typeof sayHello()).toBe('string');
+    }); //Start exercise 3
+    it('should return the string "Hello, Jane!" when executed', function () {
+        expect(sayHello("Jane")).toBe("Hello, Jane!");
+    }); //Start exercise 4
+
 });
+
+
